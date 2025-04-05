@@ -1,0 +1,17 @@
+.code-block {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  font-family: 'Courier New', Courier, monospace;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  transition: all 0.3s ease-in-out;
+  border-left: 5px solid #00b894;
+}
+
+.code-block:hover {
+  transform: scale(1.015);
+  background-color: #f1f1f1;
+}

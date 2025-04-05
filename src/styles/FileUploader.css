@@ -1,0 +1,26 @@
+.file-uploader {
+  border: 2px dashed #6c757d;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.file-uploader:hover {
+  border-color: #343a40;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  background-color: #f8f9fa;
+}
+
+.upload-label {
+  font-weight: 600;
+  cursor: pointer;
+  color: #007bff;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.upload-label:hover {
+  color: #0056b3;
+}
